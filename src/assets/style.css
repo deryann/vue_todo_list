@@ -1,3 +1,4 @@
+/* style.css - 全域樣式 */
 * {
   margin: 0;
   padding: 0;
@@ -98,38 +99,4 @@ li:hover {
 
 .delete-btn {
   background-color: #e74c3c;
-}
-
-.delete-btn:hover {
-  background-color: #c0392b;
-}
-
-.complete-btn {
-  background-color: #3498db;
-}
-
-.complete-btn:hover {
-  background-color: #2980b9;
-}
-
-.filter-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
-}
-
-.filter-container button {
-  background-color: #7f8c8d;
-  margin: 0 5px;
-}
-
-.filter-container button.active {
-  background-color: #34495e;
-}
-
-.empty-list {
-  text-align: center;
-  color: #7f8c8d;
-  font-style: italic;
-  margin: 20px 0;
 }

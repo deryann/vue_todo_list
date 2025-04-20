@@ -13,7 +13,7 @@ RUN npm install
 # 複製所有專案檔案到工作目錄
 COPY . .
 
-# 建構 Vue 應用程式
+# 建構 Vue 應用程式 (使用 Vite 建構)
 RUN npm run build
 
 # 執行階段
